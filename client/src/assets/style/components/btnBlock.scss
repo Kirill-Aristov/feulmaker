@@ -1,0 +1,69 @@
+.control {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  border: $colorBorderHeader;
+  overflow: visible;
+  background-color: transparent;
+  //отключить копирование кнопок
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+
+  &-block {
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    &__btn {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      width: 70px;
+      height: 100%;
+      padding: 5px 3px;
+      margin: 0 5px;
+      transition: 0.2s all ease-in-out;
+
+      &:hover {
+        background-color: rgba(218, 218, 218, 0.4);
+      }
+
+      &:nth-last-child(1) {
+        margin: 0 0 0 5px;
+      }
+
+      &:nth-child(1) {
+        margin: 0 5px 0 0;
+      }
+
+      .btn__img {
+        width: 100%;
+        height: 55%;
+        object-fit: contain;
+        object-position: center center;
+        pointer-events: none;
+      }
+
+      .btn__text {
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex: 0.5 1 50%;
+        font-family: $fontFamali;
+        font-size: $fontSizeNormal;
+        color: $colorTextBlack;
+        pointer-events: none;
+      }
+    }
+  }
+}

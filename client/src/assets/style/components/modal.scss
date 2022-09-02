@@ -1,0 +1,44 @@
+.modal-lists {
+  position: absolute;
+  top: 100%;
+  width: 200px;
+  display: none;
+  border: 2px solid $colorWhile;
+  border-radius: 5px;
+  background-color: #fff;
+
+  &.visible {
+    display: block;
+  }
+
+  li {
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid $colorBlack;
+  }
+}
+
+.modal-clear {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: $colorBackgroundHeader;
+
+  h2 {
+    margin: 0 0 10px 0;
+    color: $colorTextWhile;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: space-around;
+
+    button {
+      cursor: pointer;
+    }
+  }
+}
