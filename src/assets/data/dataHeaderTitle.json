@@ -1,0 +1,322 @@
+[
+  {
+    "category": "1",
+    "title": "пищевые отходы",
+    "content": 21.6,
+    "humeidty": 78.6,
+    "ash": 17.3,
+    "heat": 18.2
+  },
+  {
+    "category": "1",
+    "title": "растительные отходы",
+    "content": 2,
+    "humeidty": 62.4,
+    "ash": 19.6,
+    "heat": 18.7
+  },
+  {
+    "category": "2",
+    "title": "пленка полиэтиленовая",
+    "content": 7,
+    "humeidty": 42.9,
+    "ash": 10.8,
+    "heat": 27.4
+  },
+  {
+    "category": "2",
+    "title": "пленка полипропиленовая",
+    "content": 1.1,
+    "humeidty": 33.6,
+    "ash": 3.6,
+    "heat": 45
+  },
+  {
+    "category": "2",
+    "title": "металлиз. и многослойная пленка",
+    "content": 1,
+    "humeidty": 20.8,
+    "ash": 7.2,
+    "heat": 27.4
+  },
+  {
+    "category": "2",
+    "title": "пэт-бутылка прозрачная",
+    "content": 1.5,
+    "humeidty": 4.6,
+    "ash": 0.5,
+    "heat": 21
+  },
+  {
+    "category": "2",
+    "title": "пэт-бутылка зеленая",
+    "content": 0.2,
+    "humeidty": 4.6,
+    "ash": 0.5,
+    "heat": 21
+  },
+  {
+    "category": "2",
+    "title": "пэт-бутылка синяя",
+    "content": 0.1,
+    "humeidty": 4.6,
+    "ash": 0.5,
+    "heat": 21
+  },
+  {
+    "category": "2",
+    "title": "пэт-бутылка темная",
+    "content": 0.3,
+    "humeidty": 4.6,
+    "ash": 0.5,
+    "heat": 21
+  },
+  {
+    "category": "2",
+    "title": "пэ-бутылки",
+    "content": 0.9,
+    "humeidty": 2.4,
+    "ash": 3,
+    "heat": 27.4
+  },
+  {
+    "category": "2",
+    "title": "полимерная упаковка",
+    "content": 1.9,
+    "humeidty": 18.5,
+    "ash": 3.3,
+    "heat": 27.4
+  },
+  {
+    "category": "2",
+    "title": "прочие полимеры",
+    "content": 2.7,
+    "humeidty": 8.2,
+    "ash": 6.9,
+    "heat": 27.4
+  },
+  {
+    "category": "3",
+    "title": "картон крупный",
+    "content": 1.5,
+    "humeidty": 28.7,
+    "ash": 10.6,
+    "heat": 16.9
+  },
+  {
+    "category": "3",
+    "title": "картон мелкий",
+    "content": 2.5,
+    "humeidty": 28.4,
+    "ash": 12.3,
+    "heat": 16.9
+  },
+  {
+    "category": "3",
+    "title": "офисная бумага",
+    "content": 0.8,
+    "humeidty": 23.2,
+    "ash": 20.4,
+    "heat": 16.9
+  },
+  {
+    "category": "3",
+    "title": "газетная бумага",
+    "content": 1.1,
+    "humeidty": 38.7,
+    "ash": 7.1,
+    "heat": 16.9
+  },
+  {
+    "category": "3",
+    "title": "книги и тетрадки в обложке",
+    "content": 0.3,
+    "humeidty": 15.2,
+    "ash": 20.3,
+    "heat": 16.9
+  },
+  {
+    "category": "3",
+    "title": "глянцевая бумага",
+    "content": 0.5,
+    "humeidty": 17.6,
+    "ash": 36.2,
+    "heat": 16.9
+  },
+  {
+    "category": "3",
+    "title": "прочая макулатура",
+    "content": 4.6,
+    "humeidty": 47.1,
+    "ash": 16.9,
+    "heat": 16.9
+  },
+  {
+    "category": "4",
+    "title": "дерево",
+    "content": 1.1,
+    "humeidty": 18,
+    "ash": 5,
+    "heat": 18.9
+  },
+  {
+    "category": "5",
+    "title": "одежда",
+    "content": 1.5,
+    "humeidty": 27.6,
+    "ash": 4.9,
+    "heat": 22.6
+  },
+  {
+    "category": "5",
+    "title": "прочий текстиль",
+    "content": 1.4,
+    "humeidty": 32.1,
+    "ash": 5.6,
+    "heat": 22.6
+  },
+  {
+    "category": "6",
+    "title": "комбинированная упаковка (тетрапак)",
+    "content": 0.8,
+    "humeidty": 21.7,
+    "ash": 11.7,
+    "heat": 30
+  },
+  {
+    "category": "6",
+    "title": "электронные отходы",
+    "content": 0.3,
+    "humeidty": 3.5,
+    "ash": 50,
+    "heat": 33
+  },
+  {
+    "category": "7",
+    "title": "прочие комбинированные материалы",
+    "content": 0.6,
+    "humeidty": 3.5,
+    "ash": 50,
+    "heat": 20.1
+  },
+  {
+    "category": "8",
+    "title": "черный металл",
+    "content": 0.2,
+    "humeidty": 3.5,
+    "ash": 100,
+    "heat": 0
+  },
+  {
+    "category": "8",
+    "title": "жестяная банка",
+    "content": 0.8,
+    "humeidty": 3.5,
+    "ash": 100,
+    "heat": 0
+  },
+  {
+    "category": "8",
+    "title": "цветной металл",
+    "content": 0.2,
+    "humeidty": 3.5,
+    "ash": 100,
+    "heat": 0
+  },
+  {
+    "category": "8",
+    "title": "алюминиевая банка",
+    "content": 0.2,
+    "humeidty": 3.5,
+    "ash": 100,
+    "heat": 0
+  },
+  {
+    "category": "8",
+    "title": "стеклотара прозрачная",
+    "content": 3.8,
+    "humeidty": 3.5,
+    "ash": 100,
+    "heat": 0
+  },
+  {
+    "category": "8",
+    "title": "стеклотара зеленая и синяя",
+    "content": 1.5,
+    "humeidty": 3.5,
+    "ash": 100,
+    "heat": 0
+  },
+  {
+    "category": "8",
+    "title": "стеклотара темная",
+    "content": 1.2,
+    "humeidty": 3.5,
+    "ash": 100,
+    "heat": 0
+  },
+  {
+    "category": "8",
+    "title": "прочее стекло",
+    "content": 1.3,
+    "humeidty": 3.5,
+    "ash": 100,
+    "heat": 0
+  },
+  {
+    "category": "9",
+    "title": "опасные материалы",
+    "content": 0.5,
+    "humeidty": 3.5,
+    "ash": 50,
+    "heat": 20.1
+  },
+  {
+    "category": "10",
+    "title": "строительные отходы",
+    "content": 1.9,
+    "humeidty": 4.4,
+    "ash": 100,
+    "heat": 0
+  },
+  {
+    "category": "10",
+    "title": "прочие инертные материалы",
+    "content": 3,
+    "humeidty": 8.7,
+    "ash": 100,
+    "heat": 0
+  },
+  {
+    "category": "11",
+    "title": "отсев",
+    "content": 18.7,
+    "humeidty": 55.7,
+    "ash": 55.7,
+    "heat": 20.1
+  },
+  {
+    "category": "11",
+    "title": "кожа, резина, обувь",
+    "content": 0.8,
+    "humeidty": 10.8,
+    "ash": 22.1,
+    "heat": 30
+  },
+  {
+    "category": "11",
+    "title": "подгузники одноразовые",
+    "content": 4.7,
+    "humeidty": 65.4,
+    "ash": 10.6,
+    "heat": 20.6
+  },
+  {
+    "category": "11",
+    "title": "прочее",
+    "content": 3.9,
+    "humeidty": 100,
+    "ash": 0,
+    "heat": 20.1
+  }
+]

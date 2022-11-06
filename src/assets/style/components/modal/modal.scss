@@ -1,0 +1,300 @@
+.fon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  background-color: rgba(226, 226, 226, 0.6);
+}
+
+.modal-lists {
+  position: absolute;
+  top: 100%;
+  right: -80%;
+  width: 200px;
+  display: none;
+  border-radius: 2px;
+  border: 1px solid $black;
+  background-color: $colorModal;
+
+
+  &.visible {
+    display: block;
+  }
+
+  li {
+    cursor: pointer;
+    width: 100%;
+    margin: 4px 0;
+    padding: 2px 0;
+    color: $textBlack;
+    font-size: $sizeText;
+    font-weight: $WeightFamilyBig;
+    font-family: $familyText;
+    transition: 0.1s all;
+    border: 1px solid $black;
+    border-left: none;
+    border-right: none;
+
+    &:nth-child(1) {
+      background-color: #1267c955;
+
+      &:hover {
+        background-color: #1267c996;
+      }
+    }
+
+    &:hover {
+      background-color: $hoverBtn;
+    }
+  }
+}
+
+.ready-lists {
+  div:not(div:nth-child(1)) {
+    li {
+      border: 1px solid $black;
+      background-color: transparent;
+
+      &:nth-child(1) {
+        background-color: transparent;
+
+        &:hover {
+          background-color: $hoverBtn;
+        }
+      }
+    }
+  }
+
+  li {
+    border: 1px solid $black;
+  }
+}
+
+.ready-save {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 0 5px;
+
+  &__clear {
+    position: relative;
+    transition: 0.3s all;
+    flex: 0 1 13%;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    border-left: 2px solid $black;
+
+    &::after,
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: -10%;
+      width: 20px;
+      height: 2px;
+      background-color: #000;
+      transform: rotate(45deg);
+      transition: 0.2s all;
+      margin-left: 5px;
+    }
+
+    &::before {
+      transform: rotate(-45deg);
+    }
+
+    &:hover::before,
+    &:hover::after {
+      transform: rotate(0deg);
+    }
+  }
+}
+
+.modal-clear {
+  position: absolute;
+  top: 100%;
+  left: -80%;
+  width: 200px;
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  background-color: $colorHeader;
+  color: $textWhile;
+  font-family: $familyText;
+  font-weight: $WeightFamilyBig;
+  font-size: $sizeTitle;
+
+  h2 {
+    margin: 0 0 10px 0;
+    color: $textWhile;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: space-around;
+
+    button {
+      cursor: pointer;
+      color: $textBlack;
+      font-family: $familyText;
+      font-weight: $WeightFamilyBig;
+      font-size: $sizeTableHeader;
+      background-color: #fff;
+      border: none;
+      padding: 7px 20px;
+      transition: 0.2s all;
+
+      &:hover {
+        background-color: rgb(211, 211, 211);
+      }
+
+    }
+  }
+}
+
+.modal-load {
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  top: 300%;
+  left: 50%;
+  z-index: 50;
+  transform: translate(-50%, -50%);
+  background-color: #000;
+}
+
+.modal-save {
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  z-index: 102;
+  width: 200px;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  background-color: $colorHeader;
+  color: $textWhile;
+  font-family: $familyText;
+  font-weight: $WeightFamilyBig;
+  font-size: $sizeTitle;
+
+  .modal-saved__btn {
+    display: flex;
+    justify-content: space-around;
+
+    button {
+      color: $textBlack;
+      font-family: $familyText;
+      font-weight: $WeightFamilyBig;
+      font-size: $sizeTableHeader;
+      cursor: pointer;
+      background-color: #fff;
+      border: none;
+      padding: 4px 15px;
+      transition: 0.2s all;
+
+
+      &:hover {
+        background-color: rgb(211, 211, 211);
+      }
+    }
+
+    .btn:disabled,
+    .btn[disabled] {
+      cursor: not-allowed;
+    }
+
+  }
+
+  input {
+    width: 90%;
+    margin: 10px 0;
+    padding: 5px 0px 5px 5px;
+    border: none;
+    font-family: $familyText;
+    font-weight: $WeightFamilyBig;
+    font-size: $sizeTableHeader;
+  }
+}
+
+
+.section-error {
+  position: absolute;
+  bottom: 40px;
+  right: 30px;
+
+  &__box {
+    position: relative;
+    border-radius: 5px;
+    border: $errorColorBorder;
+    background-color: $errorColorBG;
+    padding: 7px 10px 4px;
+    width: 260px;
+    animation: opacityModal 0.7s forwards 5s;
+  }
+
+  &__text {
+    font-size: $sizeText;
+    font-family: $familyTable;
+    font-weight: $WeightFamilyNormal;
+    margin-bottom: 10px;
+    cursor: default;
+
+    span {
+      font-size: $sizeTableHeader;
+      font-weight: $WeightFamilyBig;
+    }
+
+    p {
+      margin-top: 5px;
+    }
+  }
+
+  &__line {
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 6px;
+    border-radius: 5px;
+    background-color: white;
+
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      z-index: 2;
+      width: 100%;
+      height: 6px;
+      border-radius: 5px;
+      background-color: $errorColorLine;
+      animation: TimerModal 4.5s forwards ease-in-out;
+    }
+  }
+}
+
+@keyframes TimerModal {
+  0% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0%;
+  }
+}
+
+@keyframes opacityModal {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

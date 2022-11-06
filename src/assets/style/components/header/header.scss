@@ -1,0 +1,26 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: #fff;
+
+  &-menu {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    align-items: center;
+    background-color: $colorHeader;
+
+    &__title {
+      font-size: $sizeTitle;
+      font-family: $familyTitle;
+      font-weight: $WeightFamilyBig;
+      color: $textWhile;
+      font-family: serif;
+    }
+  }
+}
